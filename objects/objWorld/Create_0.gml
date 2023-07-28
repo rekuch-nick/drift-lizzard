@@ -9,6 +9,7 @@ for(var a=0; a<19; a++){ for(var b=0; b<19; b++){
 	fmap[a, b] = imgWater;
 	bmap[a, b] = noone;
 	mmap[a, b] = noone;
+	dmap[a, b] = noone;
 }}
 
 creaturesMoveIn = 0;
@@ -25,6 +26,7 @@ enum acts {
 	spawn,
 	radiate,
 	fireball,
+	warn,
 }
 
 enum ele {

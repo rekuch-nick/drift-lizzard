@@ -5,6 +5,7 @@ y += ySpeed;
 ySpeed += grav;
 
 image_alpha -= fade;
+if(flicker){ image_alpha = random_range(0, 1); }
 
 if(wob != 0){
 	x = xStart + irandom_range(-wob, wob);

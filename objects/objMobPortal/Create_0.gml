@@ -6,5 +6,5 @@ actions[0] = acts.spawn;
 actCD[0] = irandom_range(1, 6);
 actCDMax[0] = 10;
 
-spawnList = [objCreatureBlobLightning];
+spawnList = [objCreatureBlobFire];
 spawnCost = 1;

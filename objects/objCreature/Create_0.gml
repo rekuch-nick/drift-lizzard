@@ -26,6 +26,21 @@ spawnCost = 0;
 
 
 
+warnImage = noone;
+warnMight = 0;
+warnBurstTime = 10;
+warnBuff = noone;
+warnBuffChance = noone;
+warnNumber = 1;
+warnChance = 100;
+warnTarget = "player close"
+warnElement = ele.force;
+warnRange = 10;
+
+
+
+
+
 for(var i=0; i<ww.ACT_MAX; i++){
 	actions[i] = noone;
 	actCD[i] = 0;

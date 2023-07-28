@@ -66,7 +66,13 @@ function creatureAction(ii){
 	}
 	
 	
-	
+	if(act == acts.warn){
+		var dis = disManhat(pc.xSpot, pc.ySpot, xSpot, ySpot);
+		if(dis <= warnRange){
+			var dam = warnMight * 4;
+			dangerSpawn(pc.xSpot + choose(-1, 0, 1), pc.ySpot + choose(-1, 0, 1), warnBurstTime, dam, warnElement, warnBuff, warnBuffChance, warnImage);
+		}
+	}
 	
 
 	
